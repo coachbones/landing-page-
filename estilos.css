@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none; 
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    background-image: url(../imagenes/centro.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.logo img{
+    height: 94px;
+    width: 200px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.menu  a{
+    padding: 0px 20px;
+    color: white;  
+}
+
+.menu ul{
+    display: flex;
+}
+.titulo{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    text-align: center;
+    margin: 340px;
+    overflow: hidden;
+}
+
+.centro{
+    background-image: url(../imagenes/82fcd3_1e4cb7a7053948998237a43286bee5bf~mv2_d_3840_1470_s_2.webp);
+    color: white;
+    height: 700px; 
+    width: 100%;
+    overflow: hidden ;
+    
+}
+
+.caja1{
+    text-align: left;
+    width: 380px;
+    margin: 08px;
+    float: left;
+    margin: 490px 25px;
+}
+.caja2{
+    text-align: left;
+    width: 380px;
+    margin: 08px;
+    float: left;
+    margin: 300px 25px;
+}
+.caja3{
+    text-align: left;
+    width: 380px;
+    margin: 08px;
+    float: left;
+    margin: 100px 25px;
+}
+
+footer{
+    background-color: black;
+    padding: 60px;
+    width: 91%;
+    align-items: center;
+}
+
+.footer{
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.pielogo img{
+    float: left;
+    height: 94px;
+    width: 200px;
+    overflow: hidden; 
+    }
+
+.contacto a{
+    color: white;   
+}
+
+.contacto li{
+    padding: 07px;
+}
+
+.social{
+    float: right;
+}
+.social img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+.copy h4{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 80%;
+}
